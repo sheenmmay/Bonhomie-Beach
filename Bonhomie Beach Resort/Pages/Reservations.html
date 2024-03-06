@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="background">
+
+    <head>
+        <div class="h1">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Bonhomie Leisure & Resort</title>
+            <link rel="stylesheet" href="../Styles/main-style.css">
+        </div>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="body">
+                <header>
+                    <div class="title">
+                        <h1>Bonhomie Leisure & Resort</h1>
+                    </div>
+
+                </header>
+
+                <nav>
+                    <div class="navigations">
+                        <div class="nav a">
+                            <div class="navigations">
+                                <a href="../index.html">Home</a>&nbsp;
+                                <a href="../Pages/Cottages.html">Cottages</a>&nbsp;
+                                <a href="../Pages/Rooms.html">Rooms</a>&nbsp;
+                                <a href="../Pages/Reservations.html">Reservations</a>&nbsp;
+                                <a href="../Pages/AboutUs.html">About Us</a>&nbsp;
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="reservationhero"></div>
+            </div>
+            <main>
+                <div class="main">
+                    <h1 style="color:#2872EC">
+                        "Sandy Toes and Sunset Views - Reserve Your Slice of Beach Heaven!"</h1>
+                    <p>"Welcome to our beach resort, where every moment is an embrace of serenity and luxury. As you
+                        step onto our pristine shores, let the rhythm of the waves soothe your soul and the warmth of
+                        the sun envelop you in tranquility. Here, amidst the whispering palms and the azure expanse of
+                        the sea, we invite you to surrender to the allure of paradise. Our team stands ready to curate
+                        an unforgettable experience tailored to your every desire. So, whether you seek adventure or
+                        simply wish to bask in leisure, allow us to craft your perfect escape."</p>
+                </div>
+            </main>
+        </div>
+        <div class="wrapper3">
+            <h2>Reservation Form</h2>
+            <form action="submit_reservation.php" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="check-in">Check-in Date:</label>
+                    <input type="date" id="check-in" name="check-in" required>
+                </div>
+                <div class="form-group">
+                    <label for="check-out">Check-out Date:</label>
+                    <input type="date" id="check-out" name="check-out" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Message:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit">Submit Reservation</button>
+            </form>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <small>
+                    <em>
+                        &copy;2024 Pacific Trails Resort. All Rights Reserved. <a
+                            href="#">bonhomielesureandresort@ymail.com</a>&nbsp;</small>
+                </em>
+            </div>
+        </footer>
+
+
+    </body>
+
+</html>
